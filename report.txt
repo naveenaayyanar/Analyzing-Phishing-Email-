@@ -1,0 +1,148 @@
+📄 Project Report: Phishing Email Detection Tool
+
+   🎯 Objective
+
+Build a machine learning-based phishing email detection system that classifies email content as  phishing  or  safe  using a trained model. The tool provides a user-friendly GUI for real-time analysis.
+
+  
+
+   🛠️ Project Components
+
+   1.  Training Script – `train_model.py` 
+
+*  Purpose : Trains a Naive Bayes classifier on a small dataset of phishing and safe emails.
+*  Steps :
+
+  * Uses `TfidfVectorizer` to convert email text to numerical vectors.
+  * Trains a `MultinomialNB` classifier.
+  * Saves the trained model and vectorizer using `pickle`.
+
+```python
+# Sample dataset
+data = {
+  'text': ["Click here to verify", "You won a prize", "Meeting at 10 AM", ...],
+  'label': [1, 1, 0, ...]  # 1 = phishing, 0 = safe
+}
+```
+
+*  Output Files :
+
+  * `phishing_model.pkl`: Trained classifier.
+  * `vectorizer.pkl`: TF-IDF transformer.
+
+  
+
+   2.  GUI Application – `phishing_gui.py` 
+
+*  Purpose : Provides a graphical interface for users to input email text and detect phishing attempts.
+
+*  Libraries Used :
+
+  * `tkinter`: For GUI creation.
+  * `pickle`: Load saved model/vectorizer.
+  * `numpy`: Calculate prediction confidence.
+
+*  Key Features :
+
+  * Multi-line input box for email content.
+  * “Check Email” button to run analysis.
+  * Real-time prediction with confidence score.
+
+```python
+vec = vectorizer.transform([email_text])
+prediction = model.predict(vec)[0]
+confidence = round(np.max(model.predict_proba(vec)[0]) * 100, 2)
+```
+
+*  GUI Output :
+
+  * ✅ Safe email with confidence %
+  * ⚠️ Phishing detected with confidence %
+
+  
+
+   3.  Tool Explanation – `tool_observation.txt` 
+
+* Documents libraries, functions, and internal logic.
+* Explains:
+
+  * GUI flow.
+  * Model integration.
+  * Text processing.
+  * Reasoning for using Naive Bayes and TF-IDF.
+
+  
+
+   ⚙️ Technical Workflow
+
+1.  Data Preparation :
+
+   * Small labeled dataset of 8 emails (phishing/safe).
+2.  Feature Extraction :
+
+   * TF-IDF Vectorization.
+3.  Model Training :
+
+   * Naive Bayes (MultinomialNB) classifier.
+4.  Persistence :
+
+   * Saves model and vectorizer using `pickle`.
+5.  GUI Prediction :
+
+   * Loads model/vectorizer.
+   * Accepts input.
+   * Predicts label and shows result.
+
+  
+
+   🧪 Tool in Use: Google Header Analyzer
+
+ Used to inspect technical email headers. 
+
+* 🔗 [https://toolbox.googleapps.com/apps/messageheader/](https://toolbox.googleapps.com/apps/messageheader/)
+* Helps verify:
+
+  * Real sender address/IP
+  * Authentication (SPF, DKIM)
+  * Delivery path
+
+  
+
+   📉 Disadvantages & Impacts of Phishing Links
+
+| Impact                | Description                            |
+|                |                         -- |
+| Credential Theft      | Fake pages steal usernames/passwords.  |
+| Financial Loss        | Victims lose money through fraud.      |
+| Malware Infection     | Links download viruses/ransomware.     |
+| Organizational Breach | One click can compromise a network.    |
+| Reputation Damage     | Trust in a brand or user is lost.      |
+| Legal Consequences    | Data leaks can violate laws like GDPR. |
+| Psychological Damage  | Fear and anxiety in victims.           |
+
+  
+
+   ✅ Example Usage
+
+ Email Input (from GUI): 
+
+> "Your account is under review. Click the link below to avoid suspension."
+
+ Output: 
+
+> ⚠️ Phishing Detected!
+> Confidence: 93.45%
+
+  
+
+ 📦 Files in the Project
+
+| File                   | Description                    |
+|               - |                      |
+| `phishing_gui.py`      | GUI app for phishing detection |
+| `train_model.py`       | Script to train and save model |
+| `phishing_model.pkl`   | Trained Naive Bayes model      |
+| `vectorizer.pkl`       | TF-IDF transformer             |
+| `tool_observation.txt` | Full technical documentation   |
+
+
