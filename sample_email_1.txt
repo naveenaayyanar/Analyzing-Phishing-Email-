@@ -1,0 +1,14 @@
+From: PayPal Team <support@paypa1.com>
+Subject: Urgent: Your Account Has Been Limited!
+
+Dear Customer,
+
+We have detected unauthorized access on your PayPal account.
+To protect your account, please verify your identity by clicking the link below:
+
+👉 https://paypal.secure-login-help.com
+
+Failure to respond within 24 hours may lead to permanent account suspension.
+
+Thank you,  
+PayPal Support
