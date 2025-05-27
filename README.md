@@ -51,14 +51,4 @@ This report presents an analysis of three suspicious email samples that exhibit 
 
 All three email samples exhibit classic phishing techniques including spoofed domains, urgent language, and manipulative content. Recognizing these traits helps reduce risk and protect users from credential theft or malware infections. Users should always verify suspicious messages and never click unverified links or download unexpected attachments.
 
-
-
- 📂 Repository Contents
-
-- `sample_email_1.txt` – PayPal phishing email
-- `sample_email_2.txt` – Fake Microsoft HR offer
-- `sample_email_3.txt` – Chase bank phishing alert
-- `README.md` – Full phishing analysis report
-
--BY
-   NAVEENA
+-BY NAVEENA
