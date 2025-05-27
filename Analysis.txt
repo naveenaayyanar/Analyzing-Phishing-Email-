@@ -1,87 +1,86 @@
-**Phishing Email Analysis Report**
+ Phishing Email Analysis Report 
 
-**Example 1: Fake Bank Notification**
+ Example 1: Fake Bank Notification 
 
-**Subject:** Urgent: Suspicious Login Attempt Detected on Your Account
+ Subject:  Urgent: Suspicious Login Attempt Detected on Your Account
 
-**Analysis:**
-- **Sender's Email Address:** Check for spoofing (e.g., does it match the bank's official domain?).
-- **Email Headers:** Analyze for discrepancies using an online header analyzer.
-- **Suspicious Links:** 
+ Analysis: 
+-  Sender's Email Address:  Check for spoofing (e.g., does it match the bank's official domain?).
+-  Email Headers:  Analyze for discrepancies using an online header analyzer.
+-  Suspicious Links:  
   - Link: [Verify Account Now](http://fakebank-login.com)
-  - **Analysis:** The URL does not match the bank's official website.
-- **Urgent Language:** Phrases like "suspicious login attempt" and "Failure to do so within 24 hours will result in permanent suspension" create urgency.
-- **Spelling/Grammar Errors:** Check for any errors in the email body.
+  -  Analysis:  The URL does not match the bank's official website.
+-  Urgent Language:  Phrases like "suspicious login attempt" and "Failure to do so within 24 hours will result in permanent suspension" create urgency.
+-  Spelling/Grammar Errors:  Check for any errors in the email body.
   
-**Phishing Traits Found:**
+ Phishing Traits Found: 
 - Spoofed sender address
 - Suspicious link
 - Urgent language
 - Potential spelling/grammar errors
 
-**Example 2: Fake Microsoft Account Alert**
+ Example 2: Fake Microsoft Account Alert 
 
-**Subject:** Your Microsoft Account Will Be Closed!
+ Subject:  Your Microsoft Account Will Be Closed!
 
-**Analysis:**
-- **Sender's Email Address:** Verify authenticity.
-- **Email Headers:** Analyze for discrepancies.
-- **Suspicious Links:** 
+ Analysis: 
+-  Sender's Email Address:  Verify authenticity.
+-  Email Headers:  Analyze for discrepancies.
+-  Suspicious Links:  
   - Link: [Click here to keep your account active](http://microsoft.reactivate-email.com)
-  - **Analysis:** The URL is not a legitimate Microsoft domain.
-- **Urgent Language:** "Your Microsoft account is scheduled for closure" creates urgency.
-- **Spelling/Grammar Errors:** Review for any mistakes.
+  -  Analysis:  The URL is not a legitimate Microsoft domain.
+-  Urgent Language:  "Your Microsoft account is scheduled for closure" creates urgency.
+-  Spelling/Grammar Errors:  Review for any mistakes.
 
-**Phishing Traits Found:**
+ Phishing Traits Found: 
 - Spoofed sender address
 - Suspicious link
 - Urgent language
 - Potential spelling/grammar errors
 
 
-**Example 3: Amazon Order Confirmation Scam**
+ Example 3: Amazon Order Confirmation Scam 
 
-**Subject:** Thank you for your order (#3345-89999-1234)
+ Subject:  Thank you for your order (#3345-89999-1234)
 
-**Analysis:**
-- **Sender's Email Address:** Check for authenticity.
-- **Email Headers:** Analyze for discrepancies.
-- **Suspicious Links:** 
+ Analysis: 
+-  Sender's Email Address:  Check for authenticity.
+-  Email Headers:  Analyze for discrepancies.
+-  Suspicious Links:  
   - Link: [Cancel and Report Fraud](http://cancel-order-amzn.com)
-  - **Analysis:** The URL does not match Amazon's official website.
-- **Urgent Language:** "If you did not make this purchase, cancel immediately" creates urgency.
-- **Spelling/Grammar Errors:** Review for any mistakes.
+  -  Analysis:  The URL does not match Amazon's official website.
+-  Urgent Language:  "If you did not make this purchase, cancel immediately" creates urgency.
+-  Spelling/Grammar Errors:  Review for any mistakes.
 
-**Phishing Traits Found:**
+ Phishing Traits Found: 
 - Spoofed sender address
 - Suspicious link
 - Urgent language
 - Potential spelling/grammar errors
 
 
-**Example 4: Fake Google Drive File Share**
+ Example 4: Fake Google Drive File Share 
 
-**Subject:** You’ve received a new document via Google Drive
+ Subject:  You’ve received a new document via Google Drive
 
-**Analysis:**
-- **Sender's Email Address:** Verify authenticity.
-- **Email Headers:** Analyze for discrepancies.
-- **Suspicious Links:** 
+ Analysis: 
+-  Sender's Email Address:  Verify authenticity.
+-  Email Headers:  Analyze for discrepancies.
+-  Suspicious Links:  
   - Link: [Access Document](http://googledrive-fileshare.com/login)
-  - **Analysis:** The URL does not match Google Drive's official domain.
-- **Urgent Language:** "You’ve received a new document" may create curiosity but lacks urgency.
-- **Spelling/Grammar Errors:** Review for any mistakes.
+  -  Analysis:  The URL does not match Google Drive's official domain.
+-  Urgent Language:  "You’ve received a new document" may create curiosity but lacks urgency.
+-  Spelling/Grammar Errors:  Review for any mistakes.
 
-**Phishing Traits Found:**
+ Phishing Traits Found: 
 - Spoofed sender address
 - Suspicious link
 - Potential spelling/grammar errors
 
----
 
-**Summary of Phishing Indicators Found**
-- **Spoofed Sender Addresses:** All examples may use addresses that mimic legitimate companies.
-- **Suspicious Links:** All links redirect to non-official domains.
-- **Urgent Language:** Many emails create a sense of urgency or fear.
-- **Spelling/Grammar Errors:** Common in phishing emails, though not explicitly noted in all examples.
+ Summary of Phishing Indicators Found 
+- Spoofed Sender Addresses:  All examples may use addresses that mimic legitimate companies.
+- Suspicious Links:  All links redirect to non-official domains.
+- Urgent Language:  Many emails create a sense of urgency or fear.
+- Spelling/Grammar Errors:  Common in phishing emails, though not explicitly noted in all examples.
 
