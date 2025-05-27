@@ -1,0 +1,12 @@
+From: Chase Security <alerts@secure-chaseonline.com>
+Subject: Fraud Alert - Unusual Transaction Detected
+
+Dear Customer,
+
+We noticed a transaction from an unknown device. If this was not you, please verify immediately:
+
+👉 https://chase.verify-secure.com/login
+
+Ignoring this alert may result in temporary account suspension.
+
+Chase Bank Security Team
