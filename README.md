@@ -60,10 +60,5 @@ All three email samples exhibit classic phishing techniques including spoofed do
 - `sample_email_3.txt` – Chase bank phishing alert
 - `README.md` – Full phishing analysis report
 
----
-
-## 📤 Submission Instructions
-
-1. Upload all files to a GitHub repo titled: `cybersecurity-task2-phishing-analysis`
-2. Paste your repo link into this form:  
-   🔗 [Task Submission Form](https://forms.gle/8Gm83s53KbyXs3Ne9)
+-BY
+   NAVEENA
